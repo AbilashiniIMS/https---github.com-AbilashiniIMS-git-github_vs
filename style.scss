@@ -1,0 +1,15 @@
+body{
+    h1{
+        font-size: 20px;
+        color: green;
+    }
+    ul{
+        text-align: center;
+        li{
+            color: aqua;
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}
